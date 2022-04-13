@@ -1,0 +1,14 @@
+-- INSERT INTO student VALUES (4,"New student",22,"Ohio street-04 USA");
+-- INSERT INTO student VALUES (5,"Allala",23,"Boston street-02 USA");
+-- SELECT * FROM student;
+-- UPDATE charges SET charge_amount = 200 WHERE charge_id = 1;
+-- UPDATE charges SET charge_amount = 4000 WHERE charge_id = 2;
+-- SELECT * FROM charges;
+-- DELETE FROM studentcharge WHERE charge_id = 1;
+-- SELECT * FROM studentcharge;
+-- SELECT * FROM payment;
+-- SELECT * FROM student JOIN studentcharge WHERE student.student_id=studentcharge.student_id;
+-- SELECT * FROM charges JOIN studentcharge WHERE charges.charge_id=studentcharge.charge_id;
+-- SELECT COUNT(charge_name) AS total_students,AVG(Amount) AS average_fee,SUM(Amount) AS total_fee  FROM studentcharge;
+-- SELECT * FROM student,charges,increment;
+
